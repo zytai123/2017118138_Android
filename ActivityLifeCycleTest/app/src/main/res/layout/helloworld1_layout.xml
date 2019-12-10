@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/start_helloworld2_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Helloworld2Activity"/>
+    <Button
+        android:id="@+id/start_helloworld3_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Helloworld3Activity"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is a helloworld1 activity"/>
+</LinearLayout>

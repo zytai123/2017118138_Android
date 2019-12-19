@@ -21,13 +21,13 @@ public class Task extends AsyncTask<Integer,Integer,Void> {
 
             publishProgress(new Integer(counter));
             try{
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             }
             catch (Exception e){
                 e.printStackTrace();
             }
             counter=counter+1;
-            if (counter>1000){
+            if (counter>10){
                 counter=0;
             }
 
